@@ -5,6 +5,6 @@ Website para a [petição pública sobre a Charca de Salgueiros](https://peticao
 Criado para melhorar a acessibilidade do conteúdo e facilitar a sua leitura.
 
 A petição pretende criar um movimento colectivo, como outros movimentos similares na cidade do Porto, para uma cidade mais jardinada, mais verde e sustentável.
-Expandir a área verde de Arca d'Água.
+Aumentar a área verde de Arca d'Água.
 
 ## Mais árvores, menos prédios.
