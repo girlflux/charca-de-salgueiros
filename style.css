@@ -1,0 +1,186 @@
+/*
+Roboto:
+    Light 300
+    Light 300 italic
+    Regular 400
+    Black 900 italic
+*/
+
+/* Colour Schemes
+----------------------------------------------------- */
+/* Light Mode */
+@media (prefers-color-scheme: light){
+    :root {
+        --background-color: rgb(255, 254, 253);
+        --text-color: rgb(32, 22, 11);
+        --figcaption-color: rgba(232, 250, 237, 0.418);
+        --link-color: #0000EE;
+        --link-visited: #551A8B;
+    }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark){
+    :root {
+        --background-color: #212423;
+        --text-color: #f5dfc2;
+        --figcaption-color: #3e44428a;
+        --link-color: #65c9a3;
+        --link-visited: #b785ce;
+    }
+
+    img {
+        filter: brightness(.9) contrast(1.0);
+    }
+}
+
+/* Box-sizing reset
+----------------------------------------------------- */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*
+----------------------------------------------------- */
+html {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: 0.25s;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+main {
+    padding-bottom: 2rem;
+}
+
+hr {
+    border-top: 1px;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 60rem;
+}
+
+figcaption {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.image {
+    margin-top: 2rem;
+    border-radius: 5px;
+    background-color: var(--figcaption-color);
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+}
+
+.declaration {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-2col {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    justify-items: left;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Typography
+----------------------------------------------------- */
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+body{
+    font-size: 1.1rem;
+    word-spacing: .02em;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p {
+    margin-top: 0;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: left;
+}
+
+cite {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 500;
+}
+
+em {
+    font-weight: 300;
+    font-style: italic;
+}
+
+a {
+    font-style: italic;
+    color: var(--link-color);
+}
+
+/*
+----------------------------------------------------- */
+
+@media screen and (min-width: 20rem) {
+    .grid-2col {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 40rem) {
+    .grid-2col {
+        grid-template-columns: 1fr 1fr;
+    }
+}
