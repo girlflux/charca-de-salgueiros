@@ -61,8 +61,8 @@ body{
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 main {
@@ -102,7 +102,7 @@ figcaption {
 .content {
     margin-left: auto;
     margin-right: auto;
-    max-width: 60rem;
+    max-width: 55rem;
 }
 
 .declaration {
@@ -177,14 +177,21 @@ a:visited {
 /*
 ----------------------------------------------------- */
 
+/* 320px */
 @media screen and (min-width: 20rem) {
     .grid-2col {
         grid-template-columns: 1fr;
     }
 }
 
+/* 640px */
 @media screen and (min-width: 40rem) {
     .grid-2col {
         grid-template-columns: 1fr 1fr;
+    }
+    
+    body{
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
