@@ -18,7 +18,6 @@ Roboto:
         --figcaption-color: rgba(232, 250, 237, 0.418);
         --link-color: #3737ec;
         --link-visited: #551A8B;
-
         --email-color: #808080;
         --email-color-active-hover: #969696;
         --fb-color: #5370b1;
@@ -49,7 +48,6 @@ Roboto:
         --figcaption-color: #3e44428a;
         --link-color: #65c9a3;
         --link-visited: #b785ce;
-
         --email-color: #808080;
         --email-color-active-hover: #969696;
         --fb-color: #5370b1;
@@ -69,7 +67,6 @@ Roboto:
         --pint-color: #ca2236;
         --pint-color-active-hover: #d44d5d;
     }
-
     img {
         filter: brightness(.9) contrast(1.0);
     }
@@ -239,22 +236,22 @@ a:visited {
 ----------------------------------------------------- */
 
 /* 320px */
+
 @media screen and (min-width: 20rem) {
     .grid-2col {
         grid-template-columns: 1fr;
     }
-
     body {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-
     .share {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 /* 480px */
+
 @media screen and (min-width: 30rem) {
     .share {
         grid-template-columns: repeat(3, 1fr);
@@ -262,22 +259,22 @@ a:visited {
 }
 
 /* 640px */
+
 @media screen and (min-width: 40rem) {
     .grid-2col {
         grid-template-columns: repeat(2, 1fr);
     }
-
     body {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-
     .share {
         gap: 0.7rem;
     }
 }
 
 /* 832px */
+
 @media screen and (min-width: 52rem) {
     .share {
         grid-template-columns: repeat(5, 1fr);
@@ -286,6 +283,7 @@ a:visited {
 
 /* Platform Sharing — https://sharingbuttons.io/
 ----------------------------------------------------- */
+
 .resp-sharing-button__link, .resp-sharing-button__icon {
     display: inline-block;
 }
@@ -321,8 +319,7 @@ a:visited {
     background-color: var(--email-color);
 }
 
-.resp-sharing-button--email:hover,
-.resp-sharing-button--email:active {
+.resp-sharing-button--email:hover, .resp-sharing-button--email:active {
     background-color: var(--email-color-active-hover);
 }
 
@@ -330,8 +327,7 @@ a:visited {
     background-color: var(--fb-color);
 }
 
-.resp-sharing-button--facebook:hover,
-.resp-sharing-button--facebook:active {
+.resp-sharing-button--facebook:hover, .resp-sharing-button--facebook:active {
     background-color: var(--fb-color-active-hover);
 }
 
@@ -339,17 +335,16 @@ a:visited {
     background-color: var(--wapp-color);
 }
 
-.resp-sharing-button--whatsapp:hover,
-.resp-sharing-button--whatsapp:active {
-    background-color: var(--wapp-color-active-hover);;
+.resp-sharing-button--whatsapp:hover, .resp-sharing-button--whatsapp:active {
+    background-color: var(--wapp-color-active-hover);
+    ;
 }
 
 .resp-sharing-button--telegram {
     background-color: var(--telegram-color);
 }
 
-.resp-sharing-button--telegram:hover,
-.resp-sharing-button--telegram:active {
+.resp-sharing-button--telegram:hover, .resp-sharing-button--telegram:active {
     background-color: var(--telegram-color-active-hover);
 }
 
@@ -357,8 +352,7 @@ a:visited {
     background-color: var(--twitter-color);
 }
 
-.resp-sharing-button--twitter:hover,
-.resp-sharing-button--twitter:active {
+.resp-sharing-button--twitter:hover, .resp-sharing-button--twitter:active {
     background-color: var(--twitter-color-active-hover);
 }
 
@@ -366,8 +360,7 @@ a:visited {
     background-color: var(--reddit-color);
 }
 
-.resp-sharing-button--reddit:hover,
-.resp-sharing-button--reddit:active {
+.resp-sharing-button--reddit:hover, .resp-sharing-button--reddit:active {
     background-color: var(--reddit-color-active-hover);
 }
 
@@ -375,8 +368,7 @@ a:visited {
     background-color: var(--lin-color);
 }
 
-.resp-sharing-button--linkedin:hover,
-.resp-sharing-button--linkedin:active {
+.resp-sharing-button--linkedin:hover, .resp-sharing-button--linkedin:active {
     background-color: var(--lin-color-active-hover);
 }
 
@@ -384,8 +376,7 @@ a:visited {
     background-color: var(--tumblr-color);
 }
 
-.resp-sharing-button--tumblr:hover,
-.resp-sharing-button--tumblr:active {
+.resp-sharing-button--tumblr:hover, .resp-sharing-button--tumblr:active {
     background-color: var(--tumblr-color-active-hover);
 }
 
@@ -393,7 +384,6 @@ a:visited {
     background-color: var(--pint-color);
 }
 
-.resp-sharing-button--pinterest:hover,
-.resp-sharing-button--pinterest:active {
+.resp-sharing-button--pinterest:hover, .resp-sharing-button--pinterest:active {
     background-color: var(--pint-color-active-hover);
 }
