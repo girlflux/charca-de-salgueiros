@@ -16,6 +16,7 @@ Roboto:
         --background-color: rgb(255, 254, 253);
         --text-color: rgb(32, 22, 11);
         --figcaption-color: rgba(232, 250, 237, 0.418);
+        --blockquote-border-color: rgba(32, 22, 11, 0.20);
         --link-color: #3737ec;
         --link-visited: #551A8B;
         --email-color: #808080;
@@ -46,6 +47,7 @@ Roboto:
         --background-color: #212423;
         --text-color: #f5dfc2;
         --figcaption-color: #3e44428a;
+        --blockquote-border-color: rgba(245, 223, 194, 0.20);
         --link-color: #65c9a3;
         --link-visited: #b785ce;
         --email-color: #808080;
@@ -137,6 +139,12 @@ figcaption {
     padding-right: 1rem;
 }
 
+blockquote {
+    margin: 0;
+    padding-left: 1rem;
+    border-left: solid 1px var(--blockquote-border-color);
+}
+
 .image {
     margin-top: 2rem;
     border-radius: 5px;
@@ -210,6 +218,7 @@ figcaption {
     text-align: left;
 }
 
+blockquote,
 cite {
     font-style: italic;
 }
@@ -256,6 +265,10 @@ a:visited {
     .share {
         grid-template-columns: repeat(3, 1fr);
     }
+    blockquote {
+        margin: 0;
+        margin-left: 1rem;
+    }
 }
 
 /* 640px */
@@ -264,12 +277,12 @@ a:visited {
     .grid-2col {
         grid-template-columns: repeat(2, 1fr);
     }
+    .share {
+        gap: 0.7rem;
+    }
     body {
         padding-left: 2rem;
         padding-right: 2rem;
-    }
-    .share {
-        gap: 0.7rem;
     }
 }
 
