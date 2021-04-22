@@ -180,6 +180,16 @@ blockquote {
     gap: 0.5rem;
 }
 
+@counter-style seed {
+    system: cyclic;
+    symbols: "🌱";
+    suffix: " ";
+}
+
+.emoji-list {
+    list-style-type: seed;
+}
+
 /* Typography
 ----------------------------------------------------- */
 
