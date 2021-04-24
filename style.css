@@ -163,6 +163,13 @@ blockquote {
     margin-right: auto;
 }
 
+.demands {
+    background-color: var(--figcaption-color);
+    border-radius: 5px;
+    padding: 1.1rem 1.1rem 0.55rem 1.1rem;
+    margin-bottom: 1.1rem;
+}
+
 .grid-2col {
     display: grid;
     grid-template-rows: auto;
@@ -182,12 +189,16 @@ blockquote {
 
 @counter-style seed {
     system: cyclic;
-    symbols: "🌱";
+    symbols: "\1F331";
     suffix: " ";
 }
 
 .emoji-list {
     list-style-type: seed;
+}
+
+li {
+    margin-bottom: 1.1rem;
 }
 
 /* Typography
