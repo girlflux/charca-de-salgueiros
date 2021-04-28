@@ -7,4 +7,4 @@ Criado para melhorar a acessibilidade do conteúdo e facilitar a sua leitura.
 A petição pretende criar um movimento colectivo, como outros movimentos similares na cidade do Porto, para uma cidade mais jardinada, mais verde e sustentável.
 Aumentar a área verde de Arca d'Água.
 
-## Mais árvores, menos prédios.
+## Menos prédios, mais árvores.
