@@ -163,7 +163,8 @@ blockquote {
     margin-right: auto;
 }
 
-.demands {
+.demands,
+.event {
     background-color: var(--figcaption-color);
     border-radius: 5px;
     padding: 1.1rem 1.1rem 0.55rem 1.1rem;
